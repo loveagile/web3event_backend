@@ -7,7 +7,6 @@ from selenium.common.exceptions import NoSuchElementException
 import time
 from common.start_webdriver_2 import start_driver_2
 from common.utils import check_keywords_in_title
-from common.categoies_list import web3_categories_list
 
 def get_event_list(url):
     url = url + "/?oage="
